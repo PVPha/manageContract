@@ -1,0 +1,59 @@
+.dialog-add {
+    display: none;
+    position: absolute;
+    width: 50%;
+    top: 25%;
+    left: 25%;
+    background: white;
+    z-index: 3;
+}
+.btn-action {
+    border: none;
+    background: none;
+    cursor: pointer;
+    height: 1rem;
+}
+.btn-action::after {
+    display: none;
+}
+.dropdown-menu {
+    left: -2rem !important;
+}
+.dropdown-item {
+    clear: none;
+    font-weight: 400;
+    color: black;
+}
+.dropdown-item:hover {
+    background-color: #d8d8d8 !important;
+}
+.add-hidden {
+    display: none;
+}
+.inline-update {
+    /* display: none; */
+    text-align: center;
+    border: none;
+    width: 10rem;
+}
+.inline-update:focus-visible {
+    outline: none;
+}
+input {
+    border-radius: 0.2rem;
+}
+.update-btn {
+    display: none;
+}
+
+.add input {
+    width: 10rem;
+}
+
+.ID_N {
+    display: none;
+}
+
+.modal-body .form .form-control {
+    font-size: 0.9rem;
+}
